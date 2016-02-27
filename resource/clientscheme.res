@@ -21,7 +21,7 @@ Scheme
 		// custom colors
 		"White_jackie"		"255 255 255 255"
 		"Black_jackie"		"0 0 0 255"
-		"Red_jackie"		"255 0 0 255"
+		"Red_jackie"		"200 10 0 255"
 		"Pink_jackie"		"240 180 235 255"
 		"Purple_jackie"		"230 10 195 255"
 		

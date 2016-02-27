@@ -157,7 +157,7 @@
 	}	
 	"AmmoNoClipShadow"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Gears48"
 		"fgcolor"		"Black_jackie"
@@ -173,7 +173,7 @@
 	}	
 	"WeaponNameLabel"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Gears12"
 		"fgcolor"		"White_jackie"
