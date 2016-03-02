@@ -11,7 +11,7 @@
 		"tall"			"53"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 125"
+		"fillcolor"		"Transp_jackie"
 	}
 	"TeamIndicator"
 	{

@@ -4,20 +4,20 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"		"MedicBG"
-		"xpos"			"305"
+		"xpos"			"255"
 		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"130"
 		"tall"			"53"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 125"
+		"fillcolor"		"Transp_jackie"
 	}
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"305"
+		"xpos"			"255"
 		"ypos"			"58"
 		"zpos"			"2"
 		"wide"			"130"
@@ -57,8 +57,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"318"
-		"ypos"			"8"
+		"xpos"			"268"
+		"ypos"			"7"
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"53"
@@ -78,8 +78,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelBG"
-		"xpos"			"320"
-		"ypos"			"10"
+		"xpos"			"270"
+		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"53"
@@ -99,8 +99,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"318"
-		"ypos"			"8"
+		"xpos"			"268"
+		"ypos"			"7"
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"53"
@@ -120,8 +120,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabelBG"
-		"xpos"			"320"
-		"ypos"			"10"
+		"xpos"			"270"
+		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"53"
@@ -155,7 +155,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White_jackie"
-		"bgcolor_override"	"0 0 0 125"
+		"bgcolor_override"	"Transp_jackie"
 	}		
 	"ChargeMeter1"
 	{	
@@ -175,7 +175,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White_jackie"
-		"bgcolor_override"	"0 0 0 125"
+		"bgcolor_override"	"Transp_jackie"
 	}
 	"ChargeMeter2"
 	{	
@@ -195,7 +195,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White_jackie"
-		"bgcolor_override"	"0 0 0 125"
+		"bgcolor_override"	"Transp_jackie"
 	}
 	"ChargeMeter3"
 	{	
@@ -215,7 +215,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White_jackie"
-		"bgcolor_override"	"0 0 0 125"
+		"bgcolor_override"	"Transp_jackie"
 	}
 	"ChargeMeter4"
 	{	
@@ -235,7 +235,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White_jackie"
-		"bgcolor_override"	"0 0 0 125"
+		"bgcolor_override"	"Transp_jackie"
 	}	
 	"HealthClusterIcon"
 	{

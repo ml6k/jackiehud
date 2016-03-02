@@ -24,6 +24,7 @@ Scheme
 		"Red_jackie"		"200 10 0 255"
 		"Pink_jackie"		"240 180 235 255"
 		"Purple_jackie"		"230 10 195 255"
+		"Transp_jackie"		"0 0 0 125"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2912,6 +2913,46 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"RobotoReg12"
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RobotoReg18"
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RobotoBold18"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RobotoBold24"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 	}
 
 	//
@@ -5256,6 +5297,21 @@ Scheme
 		{
 			"font"	"resource/fonts/GearsOfPeace.ttf"
 			"name"	"Gears of Peace"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/Roboto-Bold.ttf"
+			"name"	"Roboto Bold"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/Roboto-Thin.ttf"
+			"name"	"Roboto Thin"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/Roboto-Regular.ttf"
+			"name"	"Roboto Regular"
 		}
 	}
 }
