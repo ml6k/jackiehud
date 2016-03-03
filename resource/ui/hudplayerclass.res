@@ -101,7 +101,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c300"
-		"ypos"			"0"
+		"ypos"			"50"
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"200"

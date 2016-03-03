@@ -22,13 +22,18 @@
 		"ControlName"	"ImagePanel"		
 		"fieldName"		"ObjectiveBG"
 		"xpos"			"120"
-		"ypos"			"22"
+		"ypos"			"32"
 		"zpos"			"-1"
 		"wide"			"90"
 		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Transp_jackie"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 	"LeftSideBG"
 	{
@@ -125,7 +130,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"126"
-		"ypos"			"106"
+		"ypos"			"116"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"50"
@@ -157,7 +162,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"128"
-		"ypos"			"108"
+		"ypos"			"118"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"50"
@@ -189,7 +194,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"126"
-		"ypos"			"27"
+		"ypos"			"37"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"50"
@@ -221,7 +226,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"128"
-		"ypos"			"29"
+		"ypos"			"39"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"50"
@@ -257,8 +262,8 @@
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
 	}		
@@ -268,7 +273,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"10"
-		"ypos"			"20"
+		"ypos"			"35"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"
@@ -284,7 +289,7 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"ypos"		"0"
 		}
 	}		
 	
@@ -293,7 +298,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"97"
-		"ypos"			"75"
+		"ypos"			"85"
 		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"30"
@@ -358,7 +363,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"0"
-		"ypos"			"90"
+		"ypos"			"100"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -383,7 +388,8 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"xpos"		"0"
+			"ypos"		"10"
 		}
 		
 		"if_no_flags"
@@ -397,7 +403,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"0"
-		"ypos"			"10"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -422,7 +428,8 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"xpos"		"0"
+			"ypos"		"10"
 		}
 		
 		"if_no_flags"
@@ -436,7 +443,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"20"
-		"ypos"			"70"
+		"ypos"			"80"
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"
@@ -450,7 +457,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"15"
 		}
 	}
 

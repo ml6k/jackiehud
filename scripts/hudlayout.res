@@ -219,12 +219,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"c90"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -774,7 +772,7 @@
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
+		"height_offset"			"0" // distance from the bottom of the panel
 	}
 
 	HudCapturePanel
@@ -963,8 +961,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1096,12 +1092,12 @@
 	NotificationPanel
 	{
 		"fieldName"				"NotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"xpos"					"c-320"
 		"ypos"					"300"
-		"wide"					"640"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	AchievementNotificationPanel	

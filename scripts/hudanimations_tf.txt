@@ -345,20 +345,24 @@ event FlagOutline
 //===========================================
 
 // Spy Disguise
-event HudSpyDisguiseChanged
+//Alpha changes opacity of the outline
+//Position changes position. Feel free to remove the c, but your numbers will be wildly different.
+//Size changes size.
+
+event HudSpyDisguiseChanged			// outline at its largest point
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c140 180"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"150 150"		Linear 0.0 0.2
 
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
-event HudSpyDisguiseHide
+event HudSpyDisguiseHide			// outline at its smallest point
 {
-	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c320 c-100"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"40 40"			Linear 0.0 0.2
 	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }

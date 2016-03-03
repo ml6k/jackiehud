@@ -175,9 +175,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Gears12"
+		"font"			"RobotoReg12"
 		"fgcolor"		"White_jackie"
-		"xpos"			"5"
+		"xpos"			"6"
 		"ypos"			"58"
 		"zpos"			"3"
 		"wide"			"130"
@@ -185,6 +185,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"		
-		"labelText"		"%weaponname%"
+		"labelText"		"%weapon_name%"
 	}
 }

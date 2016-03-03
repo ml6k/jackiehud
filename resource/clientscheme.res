@@ -22,6 +22,7 @@ Scheme
 		"White_jackie"		"255 255 255 255"
 		"Black_jackie"		"0 0 0 255"
 		"Red_jackie"		"200 10 0 255"
+		"Blue_jackie"		"30 10 200 255"
 		"Pink_jackie"		"240 180 235 255"
 		"Purple_jackie"		"230 10 195 255"
 		"Transp_jackie"		"0 0 0 125"
@@ -2860,6 +2861,16 @@ Scheme
 				"name"		"Gears of Peace"
 				"tall"		"12"
 				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Gears20"
+		{
+			"1"
+			{
+				"name"		"Gears of Peace"
+				"tall"		"20"
+				"weight"	"300"
 				"antialias"	"1"
 			}
 		}
